@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 function Search() {
   const [Input, setInput] = useState("");
+
   let imgUrl = `https://source.unsplash.com/700x450/?${Input}`;
+  
   return (
     <div className="search__div">
       <input
